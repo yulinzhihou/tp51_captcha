@@ -1,9 +1,10 @@
 {
-    "name": "topthink/think-captcha",
-    "description": "captcha package for thinkphp5",
+    "name": "yulinzhihou/tp51_captcha",
+    "description": "captcha package for thinkphp5.1.*",
     "authors": [
         {
             "name": "yunwuxin",
+            "name1": "yulinzhihou",
             "email": "448901948@qq.com"
         }
     ],
@@ -13,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "think\\captcha\\": "src/"
+            "yulinzhihou\\captcha\\": "src/"
         },
         "files": [
             "src/helper.php"

@@ -24,7 +24,7 @@ Validate::setTypeMsg('captcha', ':attribute错误!');
  */
 function captcha($id = '', $config = [])
 {
-    $captcha = new \think\captcha\Captcha($config);
+    $captcha = new \yulinzhihou\captcha\Captcha($config);
     return $captcha->entry($id);
 }
 

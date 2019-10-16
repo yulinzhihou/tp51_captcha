@@ -115,7 +115,7 @@ class Captcha
             return false;
         }
         //接口验证
-        if ($code == strtoupper($captcha['verify_code'])) {
+        if (strtoupper($code) == strtoupper($captcha['verify_code'])) {
             $this->reset && Cache::set($name,null);
             return true;
         }

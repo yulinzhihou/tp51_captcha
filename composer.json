@@ -3,9 +3,8 @@
     "description": "captcha package for thinkphp5.1.*",
     "authors": [
         {
-            "name": "yunwuxin",
-            "name1": "yulinzhihou",
-            "email": "448901948@qq.com"
+            "name": "yulinzhihou",
+            "email": "yulinzhihou@gmail.com"
         }
     ],
     "license": "Apache-2.0",

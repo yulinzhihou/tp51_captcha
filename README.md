@@ -1,8 +1,8 @@
 # think-captcha
-thinkphp5.1 验证码类库
+基于thinkphp5.1 验证码类库 修改成自用的接口图形验证。加入缓存，去掉SESSION
 
 ## 安装
-> composer require topthink/think-captcha
+> composer require yulinzhihou/tp51_captcha:dev-master
 
 
 ##使用
